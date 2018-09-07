@@ -1,0 +1,77 @@
+#order-list {
+  .button-group {
+    text-align: center;
+    margin: 8% auto;
+  }
+}
+.often-goods {
+  height: 200px;
+  .title {
+    height: 20px;
+    border-bottom: 1px solid #d3dce6;
+    background-color: #f9fafc;
+    padding: 10px;
+    margin: 0;
+  }
+  .goods-list {
+    margin: 20px;
+    li {
+      // list-style: none;
+      float: left;
+      border: 1px solid #e5e9f2;
+      padding: 10px;
+      margin: 5px;
+      background-color: #fff;
+      .goods-price {
+        color: #58b7ff;
+      }
+    }
+  }
+}
+.goods-type {
+  margin: 10px;
+  .cook-list {
+    margin: 10px;
+    li {
+      // list-style: none;
+      width: 23%;
+      border: 1px solid #efe9f2;
+      height: auto;
+      overflow: hidden;
+      background-color: #fff;
+      padding: 10px;
+      float: left;
+      margin: 2px;
+      .food-img {
+        width: 40%;
+      }
+      .food-img,
+      .food-name,
+      .food-price {
+        float: left;
+      }
+      .food-name,
+      .food-price {
+        width: 50%;
+        font-size: 18px;
+        padding-left: 10px;
+      }
+      .food-name {
+        color: brown;
+      }
+      .food-price {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+// .food-name {
+//   font-size: 18px;
+//   padding-left: 10px;
+//   color: brown;
+// }
+// .food-price {
+//   font-size: 16px;
+//   padding-left: 10px;
+//   padding-top: 10px;
+// }
